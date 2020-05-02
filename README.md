@@ -31,22 +31,22 @@
 
 ### 메인 페이지
 
-![](../readme_images/main.png)
+![](./readme_images/main.png)
 
 ### 회원가입 & 로그인
 
-![](../readme_images/login.png)
+![](./readme_images/login.png)
 
 회원가입 후 로그인을 하면 나이키의 서비스들을 이용할 수 있습니다.
 
 ### 상품 목록
 
-![](../readme_images/product-list.png)
+![](./readme_images/product-list.png)
 
 좌측의 메뉴에서 카테고리를 선택할 수 있으며, 사이즈를 선택하면 특정 사이즈 재고가 존재하는 상품을 필터링해서 보여줍니다.
 
 ## 상품 상세
 
-![](../readme_images/product-detail.png)
+![](./readme_images/product-detail.png)
 
 좌측의 메뉴에서 카테고리를 선택할 수 있으며, 사이즈를 선택하면 특정 사이즈 재고가 존재하는 상품을 필터링해서 보여줍니다.
