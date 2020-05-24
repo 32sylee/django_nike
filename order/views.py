@@ -26,7 +26,9 @@ def checkout(request):
         order_list.append(item)
 
     # 배송지 목록을 불러옴
-    shipping_instance = Shipping.objects.all()
+    shipping_instance = Shipping.objects.filter(user_id=request.user)
+
+    # shipping_instance = Shipping.objects.all()
     #shipping_instance = get_object_or_404(Shipping)
     if request.method == 'POST':
         ship = Shipping.objects.create(user_id=request.user)
