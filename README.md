@@ -11,6 +11,31 @@
 
 그 외 버전관리에는 Git, DB는 Django에 내장된 ORM을 사용하였으며 웹 크롤링을 통해 나이키 웹 사이트의 상품 정보, 이미지를 추출해 테스트 데이터로 넣었습니다.
 
+## 실행 방법 (Windows)
+
+프로젝트 폴더(django-nike) 위치에서 아래의 명령어를 실행합니다.
+
+#### 가상환경 생성 및 실행
+
+> python -m venv ${가상환경명}
+
+> ${가상환경명}\Scripts\activate.bat
+
+#### install packages
+
+> pip install django
+> pip install pillow
+
+#### DB migrations
+
+> python manage.py makemigrations product order member
+
+> python manage.py migrate
+
+#### 서버 구동
+
+> python manage.py runserver
+
 ## 프로젝트 구조
 
 프로젝트는 3가지 app으로 구성됩니다.
